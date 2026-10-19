@@ -1,6 +1,10 @@
 # ECJTU Tools Pro
 
-[简体中文](README.md) · [Author's website](https://DongCharles.com) · [Downloads](https://github.com/ADCharles/ecjtu-tools-pro/releases)
+<p align="center">
+  <a href="README.md">简体中文</a> | <strong>English</strong>
+</p>
+
+[Author's website](https://DongCharles.com) · [Downloads](https://github.com/ADCharles/ecjtu-tools-pro/releases)
 
 Reusable core source from ECJTU Tools Pro: physics laboratory data processing, diary and formula editing, timetable and grade data models, AI conversation infrastructure, and Flutter UI components for Windows and Android.
 

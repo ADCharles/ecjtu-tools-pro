@@ -1,6 +1,10 @@
 # 华交小助手 Pro · ECJTU Tools Pro
 
-[English](README.en.md) · [作者网站](https://DongCharles.com) · [软件下载](https://github.com/ADCharles/ecjtu-tools-pro/releases)
+<p align="center">
+  <strong>简体中文</strong> | <a href="README.en.md">English</a>
+</p>
+
+[作者网站](https://DongCharles.com) · [软件下载](https://github.com/ADCharles/ecjtu-tools-pro/releases)
 
 华交小助手 Pro 的通用核心源码，包含物理实验数据处理、日记与公式编辑、课表和成绩数据模型、AI 会话基础能力，以及适用于 Windows 和 Android 的 Flutter 界面组件。
 
