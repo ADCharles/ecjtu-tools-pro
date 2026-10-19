@@ -1,0 +1,84 @@
+name: ecjtu_tools_core
+description: Reusable Flutter components, diary editing, laboratory calculations and
+  campus data models.
+version: 4.1.0
+publish_to: none
+environment:
+  sdk: ^3.12.2
+dependencies:
+  image: ^4.9.2
+  path: ^1.9.1
+  flutter:
+    sdk: flutter
+  flutter_svg: ^2.2.0
+  flutter_math_fork: ^0.7.4
+  archive: ^4.0.9
+  xml: ^7.0.1
+  path_provider: ^2.1.5
+  html: ^0.15.6
+  flutter_markdown_plus: ^1.0.12
+  markdown: ^7.3.1
+  http: ^1.6.0
+  ffi: ^2.2.0
+  pointycastle: ^4.0.0
+  crypto: ^3.0.7
+  pdf: ^3.11.3
+  printing:
+    path: ../../third_party/printing
+  pdfrx_engine: 0.5.0
+  shared_preferences: ^2.5.3
+  flutter_secure_storage: ^9.2.4
+  url_launcher: ^6.3.2
+  file_selector: ^1.0.3
+  pasteboard: 0.5.0
+  flutter_inappwebview: ^6.1.5
+  window_manager: ^0.5.2
+  diff_match_patch: 0.4.1
+  fluent_ui: 4.16.1
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+dependency_overrides:
+  path_provider_windows:
+    path: ../../third_party/path_provider_windows
+  flutter_secure_storage_windows:
+    path: ../../third_party/flutter_secure_storage_windows
+  flutter_inappwebview_windows:
+    path: ../../third_party/flutter_inappwebview_windows
+  flutter_inappwebview_android:
+    path: ../../third_party/flutter_inappwebview_android
+flutter:
+  uses-material-design: true
+  assets:
+  - assets/icons/
+  - assets/licenses/
+  - assets/fonts/LXGWWenKai-Regular.ttf
+  - assets/fonts/NotoSansSC-Regular.ttf
+  - assets/fonts/NotoSansSC-Bold.ttf
+  fonts:
+  - family: LXGWWenKai
+    fonts:
+    - asset: assets/fonts/LXGWWenKai-Regular.ttf
+      weight: 400
+  - family: SourceHanSansCN
+    fonts:
+    - asset: assets/fonts/SourceHanSansCN-Regular.otf
+      weight: 400
+    - asset: assets/fonts/SourceHanSansCN-Medium.otf
+      weight: 500
+    - asset: assets/fonts/SourceHanSansCN-Bold.otf
+      weight: 600
+    - asset: assets/fonts/SourceHanSansCN-Bold.otf
+      weight: 700
+    - asset: assets/fonts/SourceHanSansCN-Heavy.otf
+      weight: 800
+  - family: NotoSansSCPdf
+    fonts:
+    - asset: assets/fonts/NotoSansSC-Regular.ttf
+    - asset: assets/fonts/NotoSansSC-Bold.ttf
+      weight: 700
+  - family: NotoSansSC
+    fonts:
+    - asset: assets/fonts/NotoSansSC-Regular.ttf
+    - asset: assets/fonts/NotoSansSC-Bold.ttf
+      weight: 700

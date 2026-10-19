@@ -1,0 +1,8 @@
+Mozilla CA Certificate Store
+License: Mozilla Public License 2.0
+Certificate data from Mozilla as of 2026-09-25.
+Source: https://curl.se/ca/cacert.pem
+Extraction: https://curl.se/docs/caextract.html
+Original source: https://raw.githubusercontent.com/mozilla-firefox/firefox/refs/heads/release/security/nss/lib/ckfw/builtins/certdata.txt
+The converted certificate data and its constant-string wrapper are provided in Mozilla-CA-source.dart.txt beside this notice. These contain public CA certificate data only.
+License text: Mozilla-CA-MPL-2.0.txt

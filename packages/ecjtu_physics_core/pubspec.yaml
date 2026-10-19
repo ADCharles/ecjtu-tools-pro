@@ -1,0 +1,6 @@
+name: ecjtu_physics_core
+description: Physics laboratory calculations and measurement data models.
+version: 0.1.0
+publish_to: none
+environment:
+  sdk: '>=3.12.0 <4.0.0'
